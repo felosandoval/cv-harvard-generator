@@ -92,7 +92,7 @@ def build_entry(company: str, role: str, start: str, end: str, bullets: list) ->
         r"\end{tabularx}",
     ]
     for b in bullets:
-        lines.append(r"\hspace{1em}$\bullet$\enspace " + tex_escape(b))
+        lines.append(r"\hspace{1em}$\bullet$\enspace " + tex_escape(b) + r" \\")
     lines.append(r"\vspace{4pt}")
     return "\n".join(lines) + "\n"
 
