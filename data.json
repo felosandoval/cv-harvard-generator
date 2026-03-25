@@ -1,0 +1,383 @@
+{
+  "personal": {
+    "name": "YOUR FULL NAME",
+    "title": {
+      "es": "Ingeniero en Informática",
+      "en": "Computer Science Engineer"
+    },
+    "location": {
+      "es": "Your City, Country",
+      "en": "Your City, Country"
+    },
+    "email": "your@email.com",
+    "phone": "+1 234 567 8900",
+    "links": {
+      "linkedin": "https://linkedin.com/in/your-profile",
+      "github": "https://github.com/your-username",
+      "credly": "https://www.credly.com/users/your-profile/"
+    }
+  },
+
+  "profile": {
+    "es": "Ingeniero en Informática de la Universidad Técnica Federico Santa María. Interesado en áreas de Ciberseguridad, análisis de datos y desarrollo de software. Con experiencia en proyectos tecnológicos estratégicos. Manejo de Python, SQL, Tecnologías Cloud, Ciberseguridad, Power BI, etc. Se destaca por la perseverancia, el trabajo en equipo y la capacidad de resolver problemas complejos. Interesado en aplicar sus conocimientos para aportar valor en la industria y optimizar procesos.",
+    "en": "Computer Science Engineer from Universidad Técnica Federico Santa María. Focused on Cybersecurity, data analysis, and software development, with hands-on experience in strategic technology projects. Proficient in Python, SQL, Cloud Technologies, Cybersecurity, and Power BI, among others. Known for perseverance, strong teamwork, and the ability to tackle complex problems. Eager to leverage technical expertise to drive value and optimize processes across the industry."
+  },
+
+  "education": [
+    {
+      "institution": {
+        "es": "Universidad Técnica Federico Santa María",
+        "en": "Universidad Técnica Federico Santa María"
+      },
+      "degree": {
+        "es": "Ingeniería en Informática.",
+        "en": "Bachelor's Degree in Computer Science."
+      },
+      "start": "2020",
+      "end": {
+        "es": "2025",
+        "en": "2025"
+      }
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "FLOTUP",
+      "role": {
+        "es": "Encargado de Seguridad e Infraestructura",
+        "en": "Security and Infrastructure Lead"
+      },
+      "start": {
+        "es": "Mar 2025",
+        "en": "Mar 2025"
+      },
+      "end": {
+        "es": "Presente",
+        "en": "Present"
+      },
+      "bullets": [
+        {
+          "es": "Implementación de arquitectura de seguridad, logrando fortalecer la protección de datos y accesos en la plataforma.",
+          "en": "Designed and implemented a security architecture, significantly strengthening data protection and access control across the platform."
+        },
+        {
+          "es": "Diseño y despliegue de infraestructura con Docker y Cloudflare, permitiendo escalabilidad, protección y alta disponibilidad.",
+          "en": "Built and deployed infrastructure using Docker and Cloudflare, enabling scalability, enhanced protection, and high availability."
+        }
+      ]
+    },
+    {
+      "company": "TRANSELEC S.A.",
+      "role": {
+        "es": "Practicante en Vicepresidencia de Operaciones, Gerencia de Gestión de Activos",
+        "en": "Intern at Operations VP, Asset Management Division"
+      },
+      "start": {
+        "es": "Ene 2025",
+        "en": "Jan 2025"
+      },
+      "end": {
+        "es": "Mar 2025",
+        "en": "Mar 2025"
+      },
+      "bullets": [
+        {
+          "es": "Creación de herramienta de valorización de proyectos CapEx no VI, logrando agilizar la toma de decisiones financieras.",
+          "en": "Developed a valuation tool for non-VI CapEx projects, streamlining financial decision-making processes."
+        },
+        {
+          "es": "Desarrollo de herramienta de análisis de sensibilidad para Business Plan corporativo, contribuyendo a la optimización de proyecciones estratégicas.",
+          "en": "Built a sensitivity analysis tool for the corporate Business Plan, contributing to the refinement of strategic financial projections."
+        }
+      ]
+    },
+    {
+      "company": "CODELCO",
+      "role": {
+        "es": "Practicante en Vicepresidencia de Administración y Finanzas, Gerencia de Negocios y Filiales",
+        "en": "Intern at Administration and Finance VP, Business and Subsidiaries Division"
+      },
+      "start": {
+        "es": "Jul 2023",
+        "en": "Jul 2023"
+      },
+      "end": {
+        "es": "Ene 2024",
+        "en": "Jan 2024"
+      },
+      "bullets": [
+        {
+          "es": "Levantamiento de proyecto SCDF (Sistema de Control Documental de Filiales), mejorando la gestión documental corporativa.",
+          "en": "Led the requirements gathering for the SCDF project (Subsidiary Document Control System), improving corporate document management."
+        },
+        {
+          "es": "Apoyo en asuntos corporativos, facilitando procesos de coordinación administrativa.",
+          "en": "Supported corporate affairs, facilitating administrative coordination processes across departments."
+        }
+      ]
+    },
+    {
+      "company": "FRUSAN S.A.",
+      "role": {
+        "es": "Soporte TI",
+        "en": "IT Support Technician"
+      },
+      "start": {
+        "es": "Ene 2023",
+        "en": "Jan 2023"
+      },
+      "end": {
+        "es": "Feb 2023",
+        "en": "Feb 2023"
+      },
+      "bullets": [
+        {
+          "es": "Mantención, revisión y configuración de equipos en planta, asegurando la continuidad operativa.",
+          "en": "Maintained, inspected, and configured plant equipment, ensuring uninterrupted operational continuity."
+        },
+        {
+          "es": "Monitoreo de servidores y redes internas, fortaleciendo la seguridad informática.",
+          "en": "Monitored internal servers and networks, reinforcing overall IT security."
+        }
+      ]
+    },
+    {
+      "company": "3D PRINTING",
+      "role": {
+        "es": "Emprendimiento de Impresión 3D",
+        "en": "3D Printing Entrepreneurship"
+      },
+      "start": {
+        "es": "Dic 2021",
+        "en": "Dec 2021"
+      },
+      "end": {
+        "es": "Dic 2022",
+        "en": "Dec 2022"
+      },
+      "bullets": [
+        {
+          "es": "Desarrollo y creación de modelos 3D.",
+          "en": "Designed and developed custom 3D models for clients."
+        },
+        {
+          "es": "Impresión, segmentación y postprocesado de piezas.",
+          "en": "Managed printing, slicing, and post-processing of finished parts."
+        }
+      ]
+    }
+  ],
+
+  "volunteering": [
+    {
+      "institution": {
+        "es": "Universidad Técnica Federico Santa María",
+        "en": "Universidad Técnica Federico Santa María"
+      },
+      "role": {
+        "es": "Ayudante de Bases de Datos",
+        "en": "Database Teaching Assistant"
+      },
+      "start": {
+        "es": "Ago 2024",
+        "en": "Aug 2024"
+      },
+      "end": {
+        "es": "Dic 2024",
+        "en": "Dec 2024"
+      },
+      "bullets": [
+        {
+          "es": "Corrección de evaluaciones y apoyo administrativo.",
+          "en": "Graded assignments and provided administrative support for the course."
+        }
+      ]
+    }
+  ],
+
+  "certifications": [
+    {
+      "issuer": "Google",
+      "name": {
+        "es": "Foundations of Cybersecurity",
+        "en": "Foundations of Cybersecurity"
+      },
+      "year": "2025",
+      "link": "https://drive.google.com/"
+    },
+    {
+      "issuer": "Amazon",
+      "name": {
+        "es": "AWS Cloud Foundations",
+        "en": "AWS Cloud Foundations"
+      },
+      "year": "2025",
+      "link": "https://drive.google.com/"
+    },
+    {
+      "issuer": "Cisco",
+      "name": {
+        "es": "Introducción a la Ciberseguridad",
+        "en": "Introduction to Cybersecurity"
+      },
+      "year": "2024",
+      "link": "https://drive.google.com/"
+    },
+    {
+      "issuer": "Google",
+      "name": {
+        "es": "Google Cloud Foundations",
+        "en": "Google Cloud Foundations"
+      },
+      "year": "2023",
+      "link": "https://drive.google.com/"
+    },
+    {
+      "issuer": "HP",
+      "name": {
+        "es": "Print 3D",
+        "en": "3D Printing"
+      },
+      "year": "2022",
+      "link": "https://drive.google.com/"
+    },
+    {
+      "issuer": "Google",
+      "name": {
+        "es": "Python",
+        "en": "Python"
+      },
+      "year": "2020",
+      "link": "https://drive.google.com/"
+    },
+    {
+      "issuer": "Google",
+      "name": {
+        "es": "Ciberseguridad",
+        "en": "Cybersecurity"
+      },
+      "year": "2020",
+      "link": "https://drive.google.com/"
+    }
+  ],
+
+  "skills": {
+    "technical": [
+      {
+        "category": {
+          "es": "Lenguajes de Programación",
+          "en": "Programming Languages"
+        },
+        "items": {
+          "es": "Python (avanzado), R (intermedio), C++ (intermedio), Java (intermedio), Dart (intermedio), Javascript (intermedio), Go (intermedio)",
+          "en": "Python (advanced), R (intermediate), C++ (intermediate), Java (intermediate), Dart (intermediate), JavaScript (intermediate), Go (intermediate)"
+        }
+      },
+      {
+        "category": {
+          "es": "Bases de Datos",
+          "en": "Databases"
+        },
+        "items": {
+          "es": "SQL (avanzado), NoSQL (Avanzado)",
+          "en": "SQL (advanced), NoSQL (advanced)"
+        }
+      },
+      {
+        "category": {
+          "es": "Cloud Computing",
+          "en": "Cloud Computing"
+        },
+        "items": {
+          "es": "Google Cloud Platform (intermedio), Amazon Web Services (Intermedio)",
+          "en": "Google Cloud Platform (intermediate), Amazon Web Services (intermediate)"
+        }
+      },
+      {
+        "category": {
+          "es": "Análisis y Visualización de Datos",
+          "en": "Data Analysis \\& Visualization"
+        },
+        "items": {
+          "es": "Power BI (Avanzado), Tableau (intermedio)",
+          "en": "Power BI (advanced), Tableau (intermediate)"
+        }
+      },
+      {
+        "category": {
+          "es": "Ciberseguridad",
+          "en": "Cybersecurity"
+        },
+        "items": {
+          "es": "Gestión de Identidades (IAM/PAM), RBAC/ABAC, Estándares ISO 27001, Marco NIST, Seguridad en APIs (JWT/OAuth), Hashing \\& Criptografía, Seguridad en Cloud (AWS/GCP)",
+          "en": "Identity Management (IAM/PAM), RBAC/ABAC, ISO 27001 Standards, NIST Framework, API Security (JWT/OAuth), Hashing \\& Cryptography, Cloud Security (AWS/GCP)"
+        }
+      },
+      {
+        "category": {
+          "es": "Ofimática",
+          "en": "Office Productivity"
+        },
+        "items": {
+          "es": "Avanzado",
+          "en": "Advanced"
+        }
+      },
+      {
+        "category": {
+          "es": "Otras",
+          "en": "Other"
+        },
+        "items": {
+          "es": "Desarrollo Móvil y Web (Avanzado), Impresión 3D (intermedio)",
+          "en": "Mobile and Web Development (advanced), 3D Printing (intermediate)"
+        }
+      }
+    ],
+    "languages": [
+      {
+        "language": {
+          "es": "Inglés",
+          "en": "English"
+        },
+        "level": {
+          "es": "Intermedio",
+          "en": "Intermediate"
+        }
+      }
+    ]
+  },
+
+  "additional": {
+    "nationality": {
+      "es": "Your Nationality",
+      "en": "Your Nationality"
+    },
+    "birthdate": {
+      "es": "DD de Mes de YYYY",
+      "en": "Month DD, YYYY"
+    },
+    "id": "YOUR-ID-NUMBER",
+    "license": {
+      "es": "Your License Class",
+      "en": "Your License Class"
+    }
+  },
+
+  "labels": {
+    "profile":        { "es": "PERFIL PROFESIONAL",         "en": "PROFESSIONAL PROFILE" },
+    "education":      { "es": "EDUCACIÓN",                  "en": "EDUCATION" },
+    "experience":     { "es": "EXPERIENCIA PROFESIONAL",    "en": "PROFESSIONAL EXPERIENCE" },
+    "volunteering":   { "es": "AYUDANTÍAS Y VOLUNTARIADOS", "en": "TEACHING ASSISTANCE \\& VOLUNTEERING" },
+    "certifications": { "es": "CERTIFICACIONES",            "en": "CERTIFICATIONS" },
+    "skills":         { "es": "HABILIDADES",                "en": "SKILLS" },
+    "technical":      { "es": "TÉCNICAS",                   "en": "TECHNICAL" },
+    "languages_sec":  { "es": "IDIOMAS",                    "en": "LANGUAGES" },
+    "additional":     { "es": "INFORMACIÓN ADICIONAL",      "en": "ADDITIONAL INFORMATION" },
+    "nationality":    { "es": "Nacionalidad",               "en": "Nationality" },
+    "birthdate":      { "es": "Fecha de nacimiento",        "en": "Date of birth" },
+    "id_label":       { "es": "RUT",                        "en": "National ID" },
+    "license":        { "es": "Licencia de conducir",       "en": "Driver's license" }
+  }
+}
