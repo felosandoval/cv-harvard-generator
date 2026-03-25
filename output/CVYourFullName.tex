@@ -1,0 +1,161 @@
+\documentclass[11pt, a4paper]{article}
+
+% ── Codificación y fuente ────────────────────────────────────────────────────
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}          % Equivalente a Times New Roman
+
+% ── Geometría de página ──────────────────────────────────────────────────────
+\usepackage[
+  a4paper,
+  top=2cm, bottom=2cm,
+  left=2cm, right=2cm
+]{geometry}
+
+% ── Microtipografía y espaciado ──────────────────────────────────────────────
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% ── Tablas ───────────────────────────────────────────────────────────────────
+\usepackage{tabularx}
+\usepackage{booktabs}
+
+% ── Listas ───────────────────────────────────────────────────────────────────
+\usepackage{enumitem}
+
+% ── Hipervínculos y colores ──────────────────────────────────────────────────
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\definecolor{linkblue}{RGB}{0, 0, 180}
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=black}
+
+% ── Alineado a la izquierda (evita exceso de guionado) ───────────────────────
+\usepackage{ragged2e}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries YOUR FULL NAME} \\
+  \medskip
+  {\itshape Ingeniero en Informática} \\
+  Your City, Country \\
+  \href{mailto:your@email.com}{your@email.com} $|$ \href{tel:+12345678900}{+1 234 567 8900} \\
+  \href{https://linkedin.com/in/your-profile}{\textcolor{linkblue}{LinkedIn}} $|$ \href{https://github.com/your-username}{\textcolor{linkblue}{GitHub}} $|$ \href{https://www.credly.com/users/your-profile/}{\textcolor{linkblue}{Credly}}
+\end{center}
+
+\vspace{8pt}
+
+
+\vspace{6pt}\noindent{\bfseries\large PERFIL PROFESIONAL}\vspace{2pt}\hrule\vspace{4pt}
+
+\justifying Ingeniero en Informática de la Universidad Técnica Federico Santa María. Interesado en áreas de Ciberseguridad, análisis de datos y desarrollo de software. Con experiencia en proyectos tecnológicos estratégicos. Manejo de Python, SQL, Tecnologías Cloud, Ciberseguridad, Power BI, etc. Se destaca por la perseverancia, el trabajo en equipo y la capacidad de resolver problemas complejos. Interesado en aplicar sus conocimientos para aportar valor en la industria y optimizar procesos.
+
+
+\vspace{6pt}\noindent{\bfseries\large EDUCACIÓN}\vspace{2pt}\hrule\vspace{4pt}
+
+\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}
+  \textbf{Universidad Técnica Federico Santa María} & \textit{2020 -- 2025} \\
+\end{tabularx}
+\noindent Ingeniería en Informática.
+\vspace{4pt}
+
+
+\vspace{6pt}\noindent{\bfseries\large EXPERIENCIA PROFESIONAL}\vspace{2pt}\hrule\vspace{4pt}
+
+\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}
+  \textbf{FLOTUP} & \\
+  \textit{Encargado de Seguridad e Infraestructura} & \textit{Mar 2025 -- Presente} \\
+\end{tabularx}
+\hspace{1em}$\bullet$\enspace Implementación de arquitectura de seguridad, logrando fortalecer la protección de datos y accesos en la plataforma.
+\hspace{1em}$\bullet$\enspace Diseño y despliegue de infraestructura con Docker y Cloudflare, permitiendo escalabilidad, protección y alta disponibilidad.
+\vspace{4pt}
+
+\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}
+  \textbf{TRANSELEC S.A.} & \\
+  \textit{Practicante en Vicepresidencia de Operaciones, Gerencia de Gestión de Activos} & \textit{Ene 2025 -- Mar 2025} \\
+\end{tabularx}
+\hspace{1em}$\bullet$\enspace Creación de herramienta de valorización de proyectos CapEx no VI, logrando agilizar la toma de decisiones financieras.
+\hspace{1em}$\bullet$\enspace Desarrollo de herramienta de análisis de sensibilidad para Business Plan corporativo, contribuyendo a la optimización de proyecciones estratégicas.
+\vspace{4pt}
+
+\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}
+  \textbf{CODELCO} & \\
+  \textit{Practicante en Vicepresidencia de Administración y Finanzas, Gerencia de Negocios y Filiales} & \textit{Jul 2023 -- Ene 2024} \\
+\end{tabularx}
+\hspace{1em}$\bullet$\enspace Levantamiento de proyecto SCDF (Sistema de Control Documental de Filiales), mejorando la gestión documental corporativa.
+\hspace{1em}$\bullet$\enspace Apoyo en asuntos corporativos, facilitando procesos de coordinación administrativa.
+\vspace{4pt}
+
+\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}
+  \textbf{FRUSAN S.A.} & \\
+  \textit{Soporte TI} & \textit{Ene 2023 -- Feb 2023} \\
+\end{tabularx}
+\hspace{1em}$\bullet$\enspace Mantención, revisión y configuración de equipos en planta, asegurando la continuidad operativa.
+\hspace{1em}$\bullet$\enspace Monitoreo de servidores y redes internas, fortaleciendo la seguridad informática.
+\vspace{4pt}
+
+\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}
+  \textbf{3D PRINTING} & \\
+  \textit{Emprendimiento de Impresión 3D} & \textit{Dic 2021 -- Dic 2022} \\
+\end{tabularx}
+\hspace{1em}$\bullet$\enspace Desarrollo y creación de modelos 3D.
+\hspace{1em}$\bullet$\enspace Impresión, segmentación y postprocesado de piezas.
+\vspace{4pt}
+
+
+\vspace{6pt}\noindent{\bfseries\large AYUDANTÍAS Y VOLUNTARIADOS}\vspace{2pt}\hrule\vspace{4pt}
+
+\noindent\begin{tabularx}{\linewidth}{@{}X r@{}}
+  \textbf{Universidad Técnica Federico Santa María} & \\
+  \textit{Ayudante de Bases de Datos} & \textit{Ago 2024 -- Dic 2024} \\
+\end{tabularx}
+\hspace{1em}$\bullet$\enspace Corrección de evaluaciones y apoyo administrativo.
+\vspace{4pt}
+
+
+\vspace{6pt}\noindent{\bfseries\large CERTIFICACIONES}\vspace{2pt}\hrule\vspace{4pt}
+
+\begin{tabularx}{\linewidth}{@{}X r@{}}
+  \textbf{Google} --- Foundations of Cybersecurity & \href{https://drive.google.com/}{\textcolor{linkblue}{link}} $|$ 2025 \\
+  \textbf{Amazon} --- AWS Cloud Foundations & \href{https://drive.google.com/}{\textcolor{linkblue}{link}} $|$ 2025 \\
+  \textbf{Cisco} --- Introducción a la Ciberseguridad & \href{https://drive.google.com/}{\textcolor{linkblue}{link}} $|$ 2024 \\
+  \textbf{Google} --- Google Cloud Foundations & \href{https://drive.google.com/}{\textcolor{linkblue}{link}} $|$ 2023 \\
+  \textbf{HP} --- Print 3D & \href{https://drive.google.com/}{\textcolor{linkblue}{link}} $|$ 2022 \\
+  \textbf{Google} --- Python & \href{https://drive.google.com/}{\textcolor{linkblue}{link}} $|$ 2020 \\
+  \textbf{Google} --- Ciberseguridad & \href{https://drive.google.com/}{\textcolor{linkblue}{link}} $|$ 2020 \\
+\end{tabularx}
+
+
+\vspace{6pt}\noindent{\bfseries\large HABILIDADES}\vspace{2pt}\hrule\vspace{4pt}
+
+\noindent{\bfseries TÉCNICAS}\vspace{2pt}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=2pt]
+  \item \textbf{Lenguajes de Programación:} Python (avanzado), R (intermedio), C++ (intermedio), Java (intermedio), Dart (intermedio), Javascript (intermedio), Go (intermedio)
+  \item \textbf{Bases de Datos:} SQL (avanzado), NoSQL (Avanzado)
+  \item \textbf{Cloud Computing:} Google Cloud Platform (intermedio), Amazon Web Services (Intermedio)
+  \item \textbf{Análisis y Visualización de Datos:} Power BI (Avanzado), Tableau (intermedio)
+  \item \textbf{Ciberseguridad:} Gestión de Identidades (IAM/PAM), RBAC/ABAC, Estándares ISO 27001, Marco NIST, Seguridad en APIs (JWT/OAuth), Hashing \& Criptografía, Seguridad en Cloud (AWS/GCP)
+  \item \textbf{Ofimática:} Avanzado
+  \item \textbf{Otras:} Desarrollo Móvil y Web (Avanzado), Impresión 3D (intermedio)
+\end{itemize}
+
+\noindent{\bfseries IDIOMAS}\vspace{2pt}
+
+\begin{itemize}[leftmargin=1.5em, itemsep=1pt, topsep=2pt]
+  \item Inglés: Intermedio
+\end{itemize}
+
+
+\vspace{6pt}\noindent{\bfseries\large INFORMACIÓN ADICIONAL}\vspace{2pt}\hrule\vspace{4pt}
+
+\noindent Nacionalidad: Your Nationality\\
+\noindent Fecha de nacimiento: DD de Mes de YYYY\\
+\noindent RUT: YOUR-ID-NUMBER\\
+\noindent Licencia de conducir: Your License Class
+
+
+\end{document}
